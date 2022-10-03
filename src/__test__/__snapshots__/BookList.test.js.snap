@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BookListComponent has right BookList component snapshot 1`] = `
+<div>
+  <h1>
+    Welcome to My Favorite Book Portal
+  </h1>
+  <hr />
+  <h2>
+    Book Library
+     - 
+    1000
+  </h2>
+  <hr />
+  <h4>
+    Add book details for reading list
+  </h4>
+  Book Name :
+   
+  <input
+    autoComplete="off"
+    name="bookName"
+    onChange={[Function]}
+    placeholder="Book Name"
+    required={true}
+    type="text"
+    value=""
+  />
+  <br />
+  Book Author :
+   
+  <input
+    autoComplete="off"
+    name="bookAuthor"
+    onChange={[Function]}
+    placeholder="Author"
+    required={true}
+    type="text"
+    value=""
+  />
+  <br />
+  <hr />
+  <div>
+    <button
+      onClick={[Function]}
+    >
+      Add to reading list
+    </button>
+    <br />
+    <h2>
+      Reading list : 
+    </h2>
+    <ul>
+      <li
+        data-testid="1"
+      >
+        The Intelligent Investor
+         by 
+        Benjamin Graham
+      </li>
+    </ul>
+  </div>
+</div>
+`;
